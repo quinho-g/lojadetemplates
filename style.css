@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Alfa+Slab+One&family=Anton&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kaushan+Script&family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Patua+One&family=Permanent+Marker&family=Pirata+One&family=Press+Start+2P&family=Sixtyfour+Convergence&family=Suez+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kaushan+Script&family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Patua+One&family=Permanent+Marker&family=Pirata+One&family=Suez+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Arimo:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Manufacturing+Consent&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nata+Sans:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Patua+One&family=Permanent+Marker&family=Pirata+One&family=Playwrite+AU+QLD:wght@100..400&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Sixtyfour+Convergence&family=Suez+One&family=Winky+Rough:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Arimo:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Manufacturing+Consent&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nata+Sans:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Patua+One&family=Permanent+Marker&family=Pirata+One&family=Playwrite+AU+QLD:wght@100..400&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Sixtyfour+Convergence&family=Suez+One&family=Winky+Rough:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Alan+Sans:wght@300..900&family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Arimo:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Manufacturing+Consent&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nata+Sans:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Patua+One&family=Permanent+Marker&family=Pirata+One&family=Playwrite+AU+QLD:wght@100..400&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Sixtyfour+Convergence&family=Suez+One&family=Winky+Rough:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+/* -- Este código é protegido pelos direitos altorais, não deve ser usado e nem copiado 
+sem a altorização do altor.-- */
+
+
+:root {
+    --letra: 'Alan Sans', Arial, Helvetica, sans-serif;
+    --cor1: rgb(38, 255, 0);
+    --fundo: rgb(28, 28, 28);
+}
+
+html {
+    font-size: 1.2vw;
+}
+
+body {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    background-color: var(--fundo);
+    color: white;
+    perspective: 100000px;
+}h1 {
+    font-size: 4rem;
+    font-family: var(--letra), Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 1.4rem;
+}section {
+    padding: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 2rem;
+} a {
+    transition: 0.3s;
+    text-decoration: none;
+}
+a:hover {
+    transform: scale(1.05);
+}
+
+#inicio {
+    display: grid;
+    grid-template-columns: 27.5% 67.5%;
+    gap: 5%;
+}.img-inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    border-radius: 50%;
+    border: 0.3rem solid var(--cor1);
+    object-fit: cover;
+    i {
+        position: absolute;
+        font-size: 2rem;
+        text-shadow: 0 0 0.3rem var(--cor1);
+        width: 5rem;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.5rem;
+        border: 0.2rem solid var(--cor1);
+        background-color: var(--fundo);
+    }
+    img {
+        width: 100%;
+        height: 100%;border-radius: 50%;
+    }
+}
+.p1 {
+    left: 0rem;
+    top: 0rem;
+    animation: i1 3s linear infinite alternate;
+}.p2 {
+    left: 4rem;
+    bottom: 0rem;
+    animation: i1 3s linear infinite alternate-reverse;
+
+}.p3 {
+    right: -2rem;
+    bottom: 5rem;
+    animation: i1 3s linear infinite alternate;
+}
+
+@keyframes i1 {
+    from {
+        transform: rotate(-10deg) translateY(0);
+    }
+    to {
+        transform: rotate(10deg) translateY(-1rem); 
+    }
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    h1 {
+        color: var(--cor1);
+    }
+    p {
+        font-size: 1.8rem;
+    }
+    span {
+        color: var(--cor1);
+    }
+}
+
+.titulo {
+    text-align: center;
+    color: var(--cor1);
+    font-family: var(--letra);
+    margin-top: 2.5rem;
+}
+#redes {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    a {
+        width: 100%;
+        padding: 1rem;
+        border: 0.2rem solid var(--cor1);
+        border-radius: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: relative;
+        z-index: 100;
+        i {
+            width: 3rem;
+            height: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            font-size: 2rem;
+            top: 0;
+            right: 2rem;
+            transform: translateY(-50%) rotate(20deg);
+            background-color: var(--fundo);
+            z-index: -1;
+            border-radius: 50%;
+            color: var(--cor1);
+        }
+    }
+}
+
+#links {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    a {
+        border: 0.2rem solid var(--cor1);
+        padding: 2.5rem;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        border-radius: 1rem;
+        color: white;
+        z-index: 100;
+        i {
+            width:4rem;
+            height: 4rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            font-size: 2.5rem;
+            top: 0;
+            right: 2rem;
+            transform: translateY(-50%);
+            background-color: var(--fundo);
+            z-index: -1;
+            color: var(--cor1);
+            border-radius: 50%;
+        }
+    }
+}
+
+#destaque {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    div {
+        border: 0.2rem solid var(--cor1);
+        padding: 2.5rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        border-radius: 1rem;
+        z-index: 100;
+        h3 {
+            color: var(--cor1);
+            text-transform: uppercase;
+        }
+        i {
+            position: absolute;
+            width: 4rem;
+            height: 4rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            background-color: var(--fundo);
+            color: var(--cor1);
+            z-index: -1;
+            border-radius: 50%;
+        }
+    }
+}.ico1 {
+    top: 0;
+    right: 2rem;
+    transform: translateY(-50%) rotate(20deg);
+    animation: rota 3s linear infinite alternate;
+}.ico2 {
+    bottom: 0;
+    left: 2rem;
+    transform: translateY(50%) rotate(20deg);
+    animation: rota2 3s linear infinite alternate;
+
+}@keyframes rota {
+    to {
+        transform: translateY(-50%) rotate(-20deg);
+    }
+}@keyframes rota2 {
+    to {
+        transform: translateY(50%) rotate(-20deg);
+    }
+}
+
+#depoimento {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border: 0.2rem solid var(--cor1);
+    border-radius: 1rem;
+    position: relative;
+    z-index: 100;
+    text-align: center;
+    i {
+        position: absolute;
+        width: 6rem;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+        background-color: var(--fundo);
+        color: var(--cor1);
+        z-index: -1;
+        border-radius: 50%;
+        right: 2rem;
+        top: 0;
+        transform: translateY(-50%);
+    }
+    h2 {
+        font-family: var(--letra);
+        color: var(--cor1);
+    }
+}
+#contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    form {
+        width: 100%;
+    }
+    div {
+        display: grid;
+        grid-template-columns: 67.5% 27.5%;
+        align-items: center;
+        gap: 2rem;
+        width: 100%;
+        input {
+            padding: 1rem;
+            padding-left: 2rem;
+            font-weight: bold;
+            color: white;
+            border: 0.2rem solid var(--cor1);
+            border-radius: 1rem;
+            outline: none;
+            background-color: var(--fundo);
+            width: 100%;
+        }input:placeholder-shown {
+            color: rgb(81, 81, 81);
+        }
+        button {
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            border: 0.2rem solid var(--cor1);
+            border-radius: 1rem;
+            background-color: var(--fundo);
+            color: white;
+            transition: 0.3s;
+        }button:hover {
+            transform: scale(1.05);
+        }
+    }
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 2rem;
+    background-color: var(--cor1);
+    margin-top: 2rem;
+    color: var(--fundo);
+}
+
+
+/* -- Responsividade para dispositivos moveis -- */
+@media (min-width: 768px) and (max-width: 1024px) {
+    html { 
+        font-size: 1.9vw;
+    }
+section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}a:hover {
+    transform: scale(1.0);
+}
+#inicio {
+    grid-template-columns: auto;
+}.img-inicio {
+    width: 70%;
+    margin: 0 auto;
+    i {
+        width: 10rem;
+        height: 10rem;
+        font-size: 5rem;
+        border: 0.3rem solid var(--cor1);
+    }
+    img {
+        width: 100%;
+        height: 100%;border-radius: 50%;
+    }
+}
+
+
+#redes {
+    a {
+        padding: 1.5rem;
+    }
+}
+
+#depoimento {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+#contato {
+    div {
+        button:hover {
+            transform: scale(1.00);
+        }
+    }
+}
+
+}
+
+
+
+
+@media (max-width: 767px) {
+    html {
+        font-size: 2.7vw;
+    }
+    section {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }a:hover {
+        transform: scale(1.0);
+    }
+#inicio {
+    grid-template-columns: auto;
+}.img-inicio {
+    width: 80%;
+    margin: 0 auto;
+    i {
+        font-size: 3rem;
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+
+#redes {
+    grid-template-columns: auto;
+    row-gap: 3rem;
+    a {
+        padding: 1.5rem;
+        i {
+            width: 5rem;
+            height: 5rem;
+            font-size: 2.5rem;
+        }
+    }
+}
+
+#links {
+    grid-template-columns: auto;
+    row-gap: 3rem;
+    a {
+        padding: 2.5rem;
+        i {
+            width:5rem;
+            height: 5rem;
+            font-size: 2.5rem;
+        }
+    }
+}
+
+#destaque {
+    grid-template-columns: auto;
+    row-gap: 3rem;
+    div {
+        padding: 3.5rem;
+        i {
+            width: 5rem;
+            height: 5rem;
+            font-size: 2.5rem;
+        }
+    }
+}
+
+#depoimento {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding: 2rem;
+    padding-top: 3.5rem;
+    i {
+        width: 6rem;
+        height: 6rem;
+        font-size: 3rem;
+    }
+}
+#contato {
+    form {
+        width: 100%;
+    }
+    div {
+        grid-template-columns: auto;
+        gap: 1.5rem;
+        width: 100%;
+        input {
+            padding: 1rem;
+            padding-left: 2rem;
+            width: 100%;
+        }input:placeholder-shown {
+            color: rgb(81, 81, 81);
+        }
+        button {
+            padding: 1rem;
+            width: 70%;
+            margin: 0 auto;
+        }button:hover {
+            transform: scale(1);
+        }
+    }
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
